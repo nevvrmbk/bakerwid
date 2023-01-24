@@ -1,3 +1,4 @@
 export default defineNuxtRouteMiddleware((to, from) => {
-    return navigateTo(to);
+  console.log(`Routing: ${from.path} -> ${to.path}`);
+  return navigateTo(to);
 });
