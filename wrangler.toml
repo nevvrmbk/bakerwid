@@ -1,0 +1,9 @@
+name = "bakerwid"
+compatibility_date = "2023-01-24"
+main = "./.output/server/index.mjs"
+workers_dev = true
+account_id = "77c8e71b4a7b27475f2a8a56cccaa7a8"
+send_metrics = false
+
+[site]
+bucket = "./.output/public"
